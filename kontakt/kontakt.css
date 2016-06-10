@@ -1,0 +1,66 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Calibri;
+	margin: 0;
+}
+nav {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+	border: solid 2px black;
+	font-size: 15px;
+	padding: 10px 15px;
+}
+nav ul li:hover {
+	background-color: black;
+	color: orange;
+}
+
+nav ul a {
+	text-decoration: none;
+	color: black;
+}
+
+form {
+	height: 50%;
+	width: 50%;
+	margin: auto;
+	border: solid 2px black;
+	background-color: lightgrey;
+	padding: 20px 15px;
+}
+input {
+	display: block;
+	margin-top: 10px;
+}
+.withborder {
+		border: solid 2px grey;
+}
+#text {
+	height: 180px;
+	width: 40%;
+	margin-top: 10px;
+}
+footer {
+	display: block;
+	clear: both;
+}
+footer div {
+	float: left;
+	width: 33.3%;
+	background-color: lightgrey;
+	padding: 10px 0;
+}
+.34 {
+	width: 33.4;
+}
+
+
